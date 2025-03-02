@@ -11,7 +11,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full flex items-center bg-transparent justify-between py-4 px-8">
+    <header className="w-full flex items-center bg-white justify-between py-4 px-10 z-50 fixed">
       {/* LOGO */}
       <div className="flex items-center space-x-2">
         <Image src="/logo.png" alt="logo" width={50} height={50} />
